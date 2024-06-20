@@ -29,4 +29,5 @@ else()
 endif()
 
 add_executable(vsg-View-PushConst-bug vsg-View-PushConst-bug.cpp)
-set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT vsg-View-PushConst-bug)
+add_executable(vsg-View-PushConst-bug-minimal vsg-View-PushConst-bug-minimal.cpp)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT vsg-View-PushConst-bug-minimal)
